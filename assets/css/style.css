@@ -1,0 +1,90 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root{
+--green: hsl(75, 94%, 57%);
+--white: hsl(0, 0%, 100%);
+--grey: hsl(0, 0%, 20%);
+--darkGrey: hsl(0, 0%, 12%);
+--offBlack: hsl(0, 0%, 8%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+body{
+  background-color: var(--offBlack);
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+}
+main{
+  background-color: var(--darkGrey);
+  width: 280px;
+  height: auto;
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 25px;
+  border-radius: 10px;
+}
+
+img{
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+}
+
+main div{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+main div p:nth-child(1){
+  font-weight: 700;
+  font-size: 24px;
+}
+
+main div p:nth-child(2){
+  color: var(--green);
+  font-weight: 600;
+  font-size: 14px;
+
+}
+
+ul{
+  width: 100%;
+}
+
+ul p{
+  padding-bottom: 5px;
+}
+
+li{
+  background-color: var(--grey);
+  border-radius: 10px;
+  margin: 15px 0;
+  padding: 10px 0px;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+a{
+    font-weight: 600;
+}
+
+li:hover{
+  background-color: var(--green);
+}
+
+li:hover a{
+  color: var(--offBlack);
+}
