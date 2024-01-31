@@ -27,9 +27,9 @@ body{
 }
 main{
   background-color: var(--darkGrey);
-  width: 280px;
+  width: 300px;
   height: auto;
-  padding: 25px 20px;
+  padding: 25px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,7 +72,7 @@ li{
   background-color: var(--grey);
   border-radius: 10px;
   margin: 15px 0;
-  padding: 10px 0px;
+  padding: 15px 0px;
   text-align: center;
   cursor: pointer;
 
