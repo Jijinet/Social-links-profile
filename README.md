@@ -33,10 +33,9 @@ Users should be able to see hover states for interactive elements.
 
 ### Links
 
-- Frontend Mentor solution url:https://www.frontendmentor.io/solutions/ecommerce-product-page-using-html-css-and-javascript-SlOl2D9mLb
-- Live Site URL: https://jijinet.github.io/e-commerce-product-page/
-- Google Mobile Friendly Test: https://search.google.com/test/mobile-friendly/result?id=G3YMUi-yWRgRgCya6Lgauw
-- GitHub repo : https://github.com/Jijinet/e-commerce-product-page
+- Frontend Mentor solution url:https://www.frontendmentor.io/solutions/social-links-profile-using-html-and-css-s-3ArnVXYv
+- Live Site URL: https://jijinet.github.io/Social-links-profile/
+- GitHub repo : https://github.com/Jijinet/Social-links-profile
 
 ## My process
 
